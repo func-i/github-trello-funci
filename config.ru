@@ -4,3 +4,5 @@ require "github-trello/server"
 
 use Rack::ShowExceptions
 run GithubTrello::Server.new
+
+$stdout.sync = true # make puts output to logs on heroku immediately

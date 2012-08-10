@@ -1,0 +1,13 @@
+oauth_token: "[token]"
+api_key: "[key]"
+on_start:
+  move_to: "[list id]"
+  archive: true
+on_close:
+  move_to: "[list id]"
+  archive: true
+# See README for deployment usage
+on_deploy:
+  move_to:
+    "[repo name]": "[list id]"
+  archive: true

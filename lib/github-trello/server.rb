@@ -1,10 +1,27 @@
 require "json"
+require 'yaml'
+
 require "sinatra/base"
 require "github-trello/version"
 require "github-trello/http"
 
+
 module GithubTrello
   class Server < Sinatra::Base
+    
+    configure do 
+      path = 'trello.yml'
+      puts "Loading configuration from #{path} ..."
+      unless File.exists?(path)
+        puts "[ERROR] No configuration file found, exiting."
+        exit
+      end
+      
+      config = YAML::load(File.read(path))
+      set :config, config
+      set :http, GithubTrello::HTTP.new(config["oauth_token"], config["api_key"])
+    end
+    
     post "/posthook" do
       config, http = self.class.config, self.class.http
 
@@ -99,15 +116,8 @@ module GithubTrello
     end
 
     get "/" do
-      ""
+      settings.config.inspect
     end
 
-    def self.config=(config)
-      @config = config
-      @http = GithubTrello::HTTP.new(config["oauth_token"], config["api_key"])
-    end
-
-    def self.config; @config end
-    def self.http; @http end
   end
 end
