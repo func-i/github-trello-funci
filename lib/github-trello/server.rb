@@ -19,11 +19,10 @@ module GithubTrello
       
       config = YAML::load(File.read(path))
       set :config, config
-      set :http, GithubTrello::HTTP.new(config["oauth_token"], config["api_key"])
     end
     
     post "/posthook" do
-      config, http = self.class.config, self.class.http
+      config = self.class.config
 
       payload = JSON.parse(params[:payload])
 
@@ -43,9 +42,21 @@ module GithubTrello
       payload["commits"].each do |commit|
         # Figure out the card short id
         match = commit["message"].match(/((case|card|close|archive|fix)e?s? \D?([0-9]+))/i)
-        next unless match and match[3].to_i > 0
+        card_id = (match && match[3].to_i > 0) ? match[3].to_i : nil
+        next unless card_id
 
-        results = http.get_card(board_id, match[3].to_i)
+        puts "Received commit from user #{commit["author"]["name"]} for https://trello.com/card/card-title-placeholder/#{board_id}/#{card_id} ..."
+        
+        user = config["users"][commit["author"]["name"]]
+        fallback_user = false
+        unless user
+          fallback_user = true
+          user = config["users"][config["fallback_user"]] if config["fallback_user"]
+        end
+        
+        http = GithubTrello::HTTP.new(user["oauth_token"], user["api_key"])
+        
+        results = http.get_card(board_id, card_id)
         unless results
           puts "[ERROR] Cannot find card matching ID #{match[3]}"
           next
@@ -54,10 +65,10 @@ module GithubTrello
         results = JSON.parse(results)
 
         # Add the commit comment
-        message = "#{commit["author"]["name"]}: #{commit["message"]}\n\n[#{branch}] #{commit["url"]}"
+        message = "#{commit['author']['name'] + ': ' if fallback_user}[#{branch}] #{commit["message"]}\n#{commit["url"]}"
         message.gsub!(match[1], "")
         message.gsub!(/\(\)$/, "")
-
+        
         http.add_comment(results["id"], message)
 
         # Determine the action to take
@@ -116,7 +127,8 @@ module GithubTrello
     end
 
     get "/" do
-      settings.config.inspect
+      #settings.config.inspect
+      ''
     end
 
   end
