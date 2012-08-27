@@ -19,6 +19,7 @@ board_ids:
   "decisions_decided": 4f9816e1708b34df5712dbf3
   "iweg.org": 4fa1613200a5a7ba1561b0f1
   "TFC": 50256fe0a72eea882d98daa8
+  "outrank": 4fe0d58a3a49f16c700fe1b5
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
