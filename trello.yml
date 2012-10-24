@@ -1,4 +1,7 @@
 users:
+  "Valentina Kateneva":
+    oauth_token: 88352eeb7b3028cc04946aabe6efd546
+    api_key: 37d523022ada4442c58f2018342cfd73639a43f37c8a26986b23b916867028ff
   "Khurram Virani":
     oauth_token: d7dcd4b4044880e131fd7f0c570ec52d5095e9664eeb24ca1c43f93f5f47623d
     api_key: ed810d3cbaf7cee3a7faa1d2ab808be3
