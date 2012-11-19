@@ -23,6 +23,7 @@ board_ids:
   "iweg.org": 4fa1613200a5a7ba1561b0f1
   "TFC": 50256fe0a72eea882d98daa8
   "outrank": 4fe0d58a3a49f16c700fe1b5
+  "inkspand": 50aa59661970b5d45d00b7be
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
