@@ -14,6 +14,10 @@ users:
   "Nick Johnston":
     oauth_token: d00b7d258c46a096b8a974110dfe1c42a0cd2cbe1bcfa5250ad31806c4a5d736
     api_key: 86315531c5fa1f2bbd699e4daa14671e
+  "Bruno Meira": 
+    oauth_token: 94491a8dd9ab4996037e056ffa1cd1d968725a25f9827d6eb7c4e75a8ace6945
+    api_key: f8947184de87275b7d2d7d8a7cad978f
+    
 fallback_user: Khurram Virani
 board_ids:
   "github-trello": 50059cc127cbbd457b7457fd
