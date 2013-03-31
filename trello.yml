@@ -29,6 +29,7 @@ board_ids:
   "outrank": 4fe0d58a3a49f16c700fe1b5
   "inkspand": 50aa59661970b5d45d00b7be
   "EventStream": 51376f125612dfdf1a008ae8
+  "outrank-funci": 5158866a13abccd706002823
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
