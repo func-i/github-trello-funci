@@ -20,6 +20,15 @@ module GithubTrello
       config = YAML::load(File.read(path))
       set :config, config
     end
+
+    helpers do
+      def merge_commit?(commit, card)
+        card['actions'].each do |action|
+          return true if action['data'] && action['data']['text'].include?(commit['url'])
+        end
+        false
+      end
+    end
     
     post "/posthook" do
       config = self.class.config
@@ -68,8 +77,8 @@ module GithubTrello
         message = "#{commit['author']['name'] + ': ' if fallback_user}[#{branch}] #{commit["message"]}\n#{commit["url"]}"
         message.gsub!(match[1], "")
         message.gsub!(/\(\)$/, "")
-        
-        http.add_comment(results["id"], message)
+
+        http.add_comment(results["id"], message) unless merge_commit?(commit, results)
 
         # Determine the action to take
         update_config = case match[2].downcase
