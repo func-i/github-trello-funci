@@ -17,7 +17,14 @@ users:
   "Bruno Meira": 
     oauth_token: 94491a8dd9ab4996037e056ffa1cd1d968725a25f9827d6eb7c4e75a8ace6945
     api_key: f8947184de87275b7d2d7d8a7cad978f
-    
+  "Matt Watkajtys":
+    oauth_token: fba061e87f4ccd0e735f92c9fb1c2c2bcc5ac49646fbb19a3ed6891aca2be582
+    api_key: ec6577da4b59f4a0e4e8ff382337b150
+  "Jesse Buchanan":
+    oauth_token: 09b09954989e36d3aad36b8127b0a0599389fed705a1467b9443c4237513815b
+    api_key: 69e1ed5e0400869eaef02ac4f927c0cb
+     
+
 fallback_user: Khurram Virani
 board_ids:
   "github-trello": 50059cc127cbbd457b7457fd
