@@ -23,7 +23,9 @@ users:
   "Jesse Buchanan":
     oauth_token: 09b09954989e36d3aad36b8127b0a0599389fed705a1467b9443c4237513815b
     api_key: 69e1ed5e0400869eaef02ac4f927c0cb
-     
+  "Alex Naser":
+    oauth_token: 3af634874f1df9d1065e5ad4b91560d518fc4728a7bac923775581b539ea1045
+    api_key: 1c23b5e20679629d828b9d9de6564256
 
 fallback_user: Khurram Virani
 board_ids:
