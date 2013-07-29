@@ -40,6 +40,7 @@ board_ids:
   "EventStream": 51376f125612dfdf1a008ae8
   "outrank-funci": 5158866a13abccd706002823
   "uknowa3": 4edd4a838a105eba9d228d84
+  "trot_with_spot": HscaRFzC
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
