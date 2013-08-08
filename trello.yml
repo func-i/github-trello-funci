@@ -41,6 +41,7 @@ board_ids:
   "outrank-funci": 5158866a13abccd706002823
   "uknowa3": 4edd4a838a105eba9d228d84
   "trot_with_spot": HscaRFzC
+  "trot_with_spot_phone_gap": HscaRFzC
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
