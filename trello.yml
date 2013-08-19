@@ -26,6 +26,9 @@ users:
   "Alex Naser":
     oauth_token: 3af634874f1df9d1065e5ad4b91560d518fc4728a7bac923775581b539ea1045
     api_key: 1c23b5e20679629d828b9d9de6564256
+  "Jared Phillips":
+    oauth_token: 54ef3b277f23295f4712b23cde216e498e486637a562a65b570c7f3d5b58e409
+    api_key: d94a017e1eb57257a06b4d6df3f8d2a1
 
 fallback_user: Khurram Virani
 board_ids:
