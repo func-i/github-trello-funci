@@ -51,6 +51,7 @@ board_ids:
   "uknowa3": 4edd4a838a105eba9d228d84
   "trot_with_spot": HscaRFzC
   "trot_with_spot_phone_gap": HscaRFzC
+  "CanLii": oVzXTS0w
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
