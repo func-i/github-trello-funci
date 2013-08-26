@@ -29,6 +29,12 @@ users:
   "Jared Phillips":
     oauth_token: 54ef3b277f23295f4712b23cde216e498e486637a562a65b570c7f3d5b58e409
     api_key: d94a017e1eb57257a06b4d6df3f8d2a1
+  "Matt Emmons":
+    oauth_token: ee75b8e0f0bbbb61eba2312c297d56913bce321744fcbddd68500aab43e220b9
+    api_key: 1838c051e849b3585368b05340c4a4ca
+  "Noam Gagliardi"
+    oauth_token: 9065e0263178d52c7fbb126210815b3b467d1b03ba37e2cdcbdcbfec2f172ef2
+    api_key:
 
 fallback_user: Khurram Virani
 board_ids:
