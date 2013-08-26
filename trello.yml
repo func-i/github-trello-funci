@@ -34,7 +34,7 @@ users:
     api_key: 1838c051e849b3585368b05340c4a4ca
   "Noam Gagliardi"
     oauth_token: 9065e0263178d52c7fbb126210815b3b467d1b03ba37e2cdcbdcbfec2f172ef2
-    api_key:
+    api_key: 8f93efe508dfac470fa6fd31c2efc945
 
 fallback_user: Khurram Virani
 board_ids:
