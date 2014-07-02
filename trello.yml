@@ -52,7 +52,7 @@ board_ids:
   "trot_with_spot": HscaRFzC
   "trot_with_spot_phone_gap": HscaRFzC
   "CanLii": oVzXTS0w
-  "VoxPop": iwsg6f99
+  "voxpop-engine": iwsg6f99
   "oxford-td": O7G3ZCnX
 # on_start:
 #   move_to: "[list id]"
