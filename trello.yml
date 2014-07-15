@@ -35,6 +35,9 @@ users:
   "noam":
     oauth_token: 9065e0263178d52c7fbb126210815b3b467d1b03ba37e2cdcbdcbfec2f172ef2
     api_key: 8f93efe508dfac470fa6fd31c2efc945
+  "Scott Chu":
+    oauth_token: aad02ab2d7cf87a65e50be6f2b5eefe33c5269e850fb56e772c4fb899bfd1baf
+    api_key: 47830a2dde040934bfdc415ac31383c1
 
 fallback_user: Khurram Virani
 board_ids:
