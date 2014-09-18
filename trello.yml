@@ -14,7 +14,7 @@ users:
   "Scott Chu":
     oauth_token: aad02ab2d7cf87a65e50be6f2b5eefe33c5269e850fb56e772c4fb899bfd1baf
     api_key: 47830a2dde040934bfdc415ac31383c1
-  "Stefan Reindl"
+  "Stefan Reindl":
     oauth_token: 08ef5fb6e8bf4a35af03bc4c1157284075abd24981b2644b74370e9d581632c7
     api_key: 605d2df0437533c14de5c6308a004699
 
