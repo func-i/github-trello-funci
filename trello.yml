@@ -19,6 +19,8 @@ users:
     api_key: 605d2df0437533c14de5c6308a004699
 
 fallback_user: Jonathan Salis
+
+# github repo name: trello board id
 board_ids:
   "github-trello": 50059cc127cbbd457b7457fd
   "eBounties": 4fd0faf0a22b6aa24e14d2bb
@@ -35,9 +37,9 @@ board_ids:
   "CanLii": oVzXTS0w
   "voxpop-engine": iwsg6f99
   "oxford-td": O7G3ZCnX
-  "salesforce-odk": Y3c7ILga
-  "quini-dev": 9VRLQgZM
-  "pain-squad": 2pfgkcW1
+  "sales_force": 6aPpGd7M
+  "rachis-server": 9VRLQgZM
+  "painsquad": 2pfgkcW1
   "fluxx-client-manager": cjMXnwCB
 # on_start:
 #   move_to: "[list id]"
