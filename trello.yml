@@ -41,6 +41,7 @@ board_ids:
   "rachis-server": 9VRLQgZM
   "painsquad": 2pfgkcW1
   "fluxx-client-manager": cjMXnwCB
+  "quini-responsive": 8ZzA1nF2
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
