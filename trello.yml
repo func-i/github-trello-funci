@@ -13,10 +13,7 @@ users:
     api_key: 1c23b5e20679629d828b9d9de6564256
   "scottchu":
     oauth_token: aad02ab2d7cf87a65e50be6f2b5eefe33c5269e850fb56e772c4fb899bfd1baf
-    api_key: 47830a2dde040934bfdc415ac31383c1
-  "Stefan Reindl":
-    oauth_token: 08ef5fb6e8bf4a35af03bc4c1157284075abd24981b2644b74370e9d581632c7
-    api_key: 605d2df0437533c14de5c6308a004699
+    api_key: 47830a2dde040934bfdc415ac31383c1  
 
 fallback_user: Jonathan Salis
 
@@ -42,6 +39,8 @@ board_ids:
   "painsquad": 2pfgkcW1
   "fluxx-client-manager": cjMXnwCB
   "quini_responsive": KmRZP4hJ
+  "kalebr_lms": 9fAHkajC
+  "kalebr_app": 9fAHkajC
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
