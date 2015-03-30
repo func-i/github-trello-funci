@@ -14,6 +14,9 @@ users:
   "scottchu":
     oauth_token: aad02ab2d7cf87a65e50be6f2b5eefe33c5269e850fb56e772c4fb899bfd1baf
     api_key: 47830a2dde040934bfdc415ac31383c1  
+  "Mike Kakebeeke":
+    oauth_token: 02edba830ef456ada67bf6cd626068cc19b321862dfff02a55f82e1aee56cc0f    
+    api_key: 09f2ed5e8c7c00e4b255b44ad78b89f2
 
 fallback_user: Jonathan Salis
 
