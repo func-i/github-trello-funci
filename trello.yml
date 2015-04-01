@@ -17,6 +17,9 @@ users:
   "Mike Kakebeeke":
     oauth_token: 02edba830ef456ada67bf6cd626068cc19b321862dfff02a55f82e1aee56cc0f    
     api_key: 09f2ed5e8c7c00e4b255b44ad78b89f2
+  "Manoj"
+    oauth_token: b3f0a9b88210a19e2bd3b83ba85587f4510f97b420a8b6f62012535e751b74c0
+    api_key: ce11a2d7575105289d637b199e8a6339
 
 fallback_user: Jonathan Salis
 
