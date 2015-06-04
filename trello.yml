@@ -20,6 +20,9 @@ users:
   "Manoj":
     oauth_token: b3f0a9b88210a19e2bd3b83ba85587f4510f97b420a8b6f62012535e751b74c0
     api_key: ce11a2d7575105289d637b199e8a6339
+  "Bose":
+    oauth_token: b6cdafe18c93e280ea6fe73e63f6e8b9911b9ae6aeb72cec060ce198262431a2
+    api_key: ca334f1794c748a0d5b212953eee6c3d
 
 fallback_user: Jonathan Salis
 
