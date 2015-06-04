@@ -47,6 +47,7 @@ board_ids:
   "quini_responsive": KmRZP4hJ
   "kalebr-core-api": 9fAHkajC
   "kalebr-core-app": 9fAHkajC
+  "hse-mcmaster": q2sata77
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
