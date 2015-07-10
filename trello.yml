@@ -51,6 +51,7 @@ board_ids:
   "kalebr-core-api": 9fAHkajC
   "kalebr-core-app": 9fAHkajC
   "hse-mcmaster": q2sata77
+  "hse-frontend": q2sata77
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
