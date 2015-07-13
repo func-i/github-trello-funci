@@ -23,6 +23,9 @@ users:
   "Bose":
     oauth_token: b6cdafe18c93e280ea6fe73e63f6e8b9911b9ae6aeb72cec060ce198262431a2
     api_key: ca334f1794c748a0d5b212953eee6c3d
+  "Mike Yagudaev":
+    oauth_token: 1aaea96edde61a7dfd85bfde61ca9d57e79794cadb699a735ea08c0bccd91774
+    api_key: 9be86d6747a0e3580efd30d1aa13e35f
 
 fallback_user: Jonathan Salis
 
