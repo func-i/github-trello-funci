@@ -26,6 +26,9 @@ users:
   "Michael Yagudaev":
     oauth_token: 1aaea96edde61a7dfd85bfde61ca9d57e79794cadb699a735ea08c0bccd91774
     api_key: 9be86d6747a0e3580efd30d1aa13e35f
+  "Laith Azer":
+    oauth_token: a41bdb2d7629a2abe5543ba04ab97ca7972793d22a17d0aa16fa6872c4f47f57
+    api_key: feed2fae138d0a0cad843fbe3537b9df
 
 fallback_user: Jonathan Salis
 
@@ -55,6 +58,7 @@ board_ids:
   "kalebr-core-app": 9fAHkajC
   "hse-mcmaster": q2sata77
   "hse-frontend": q2sata77
+  "compass-next": yqS4DxVF
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
