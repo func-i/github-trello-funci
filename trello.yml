@@ -58,7 +58,7 @@ board_ids:
   "kalebr-core-app": 9fAHkajC
   "hse-mcmaster": q2sata77
   "hse-frontend": q2sata77
-  "compass-next": yqS4DxVF
+  "laser_shark": yqS4DxVF
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
