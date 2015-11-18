@@ -29,6 +29,9 @@ users:
   "Laith Azer":
     oauth_token: a41bdb2d7629a2abe5543ba04ab97ca7972793d22a17d0aa16fa6872c4f47f57
     api_key: feed2fae138d0a0cad843fbe3537b9df
+  "KasabovIvo":
+    oauth_token: accf3869f2a15633b1840fffd17474851274a36ba92704b539abfd41c75b7ea2
+    api_key: ec8701184f630d16a1f13075e189094f
 
 fallback_user: Jonathan Salis
 
