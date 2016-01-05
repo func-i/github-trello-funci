@@ -32,6 +32,9 @@ users:
   "KasabovIvo":
     oauth_token: accf3869f2a15633b1840fffd17474851274a36ba92704b539abfd41c75b7ea2
     api_key: ec8701184f630d16a1f13075e189094f
+  "Ajwah":
+    oauth_token: 74073e4aa95620612a5a8bab6c757021a56f18963fc18f41c24b0ccc9f80fc0c
+    api_key: ceeb18eb4919572aac292ff96f438b88
 
 fallback_user: Jonathan Salis
 
