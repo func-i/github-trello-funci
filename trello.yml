@@ -65,7 +65,7 @@ board_ids:
   "hse-mcmaster": q2sata77
   "hse-frontend": q2sata77
   "laser_shark": yqS4DxVF
-  "oma": 4h5yifGl
+  "OMA": 4h5yifGl
 # on_start:
 #   move_to: "[list id]"
 #   archive: true
